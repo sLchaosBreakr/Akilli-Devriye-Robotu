@@ -1,0 +1,28 @@
+# Devriye Waypoint Konfigürasyonu
+# Robot bu noktalar arasında sürekli devriye gezer
+
+patrol_node:
+  ros__parameters:
+    waypoints:
+      - name: "P1"
+        x: 0.0
+        y: 0.0
+        
+      - name: "P2"
+        x: 4.0
+        y: 0.0
+        
+      - name: "P3"
+        x: 4.0
+        y: 4.0
+        
+      - name: "P4"
+        x: 0.0
+        y: 4.0
+    
+    # Waypoint'e varış toleransı (metre)
+    waypoint_tolerance: 0.3
+    
+    # Robot maksimum hızı
+    max_linear_velocity: 0.3
+    max_angular_velocity: 1.0

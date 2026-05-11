@@ -1,0 +1,27 @@
+# Yasak Bölge Konfigürasyonu
+# Bu bölgelerde 5 saniyeden fazla kalan nesneler alarm tetikler
+
+zone_monitor:
+  ros__parameters:
+    restricted_zones:
+      - name: "zone_a"
+        x_min: 1.5
+        x_max: 2.5
+        y_min: 1.5
+        y_max: 2.5
+        center_x: 2.0
+        center_y: 2.0
+        
+      - name: "zone_b"
+        x_min: -2.5
+        x_max: -1.5
+        y_min: 1.5
+        y_max: 2.5
+        center_x: -2.0
+        center_y: 2.0
+    
+    # Alarm tetikleme süresi (saniye)
+    violation_threshold: 5.0
+    
+    # Kontrol periyodu (saniye)
+    check_period: 0.5
