@@ -2,7 +2,7 @@
 
 **ROS 2 Jazzy ve Gazebo Harmonic ile Otonom Güvenlik Robotu Simülasyonu**
 
-## 👤 Öğrenci Bilgileri
+## 👤 Öğrenci ve Üniversite Bilgileri
 * **Ad Soyad:** Mustafa Selman UĞUZ
 * **Öğrenci Numarası:** 22370031083
 * **Üniversite:** Necmettin Erbakan Üniversitesi
