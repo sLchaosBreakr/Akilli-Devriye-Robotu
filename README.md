@@ -3,9 +3,11 @@
 **ROS 2 Jazzy ve Gazebo Harmonic ile Otonom Güvenlik Robotu Simülasyonu**
 
 ## 👤 Öğrenci Bilgileri
-* **Ad Soyad:** Mustafa Selman Uğuz
+* **Ad Soyad:** Mustafa Selman UĞUZ
 * **Öğrenci Numarası:** 22370031083
 * **Üniversite:** Necmettin Erbakan Üniversitesi
+* **Akademisyen:** Dr. Öğr. Üyesi Dr. HASAN SERDAR
+* **Ders:** Robotik
 
 ## 📖 Proje Tanımı ve Amaç
 Bu proje, ROS 2 tabanlı, 6 waypoint üzerinden sürekli devriye atan otonom bir mobil robot simülasyonudur. Temel amacı, "Kasa Odası" ve "Sunucu Odası" gibi kritik yasak bölgelerin (Restricted Zones) 7/24 kesintisiz olarak izlenmesidir. Sistem, yasaklı bölgede 5 saniyeden uzun süre kalan nesneleri tespit etme ve otomatik alarm tetikleme algoritmasına sahiptir. Dinamik durum kontrolü sayesinde tehdit anında olay yerine hızlı intikal (0.6 m/s) ve durum analizi gerçekleştirebilmektedir.
