@@ -11,7 +11,7 @@
 Bu proje, ROS 2 tabanlı, 6 waypoint üzerinden sürekli devriye atan otonom bir mobil robot simülasyonudur. Temel amacı, "Kasa Odası" ve "Sunucu Odası" gibi kritik yasak bölgelerin (Restricted Zones) 7/24 kesintisiz olarak izlenmesidir. Sistem, yasaklı bölgede 5 saniyeden uzun süre kalan nesneleri tespit etme ve otomatik alarm tetikleme algoritmasına sahiptir. Dinamik durum kontrolü sayesinde tehdit anında olay yerine hızlı intikal (0.6 m/s) ve durum analizi gerçekleştirebilmektedir.
 
 ## 🎥 Sistem Çalışma Videosu
-Sistemin otonom devriye, ihlal tespiti ve hızlı intikal senaryolarını çalışırken görmek için repo dizininde bulunan `calisma_videosu.mp4` dosyasını inceleyebilirsiniz.
+Sistemin otonom devriye, ihlal tespiti ve hızlı intikal senaryolarını çalışırken görmek için repo dizininde bulunan `calisma_videosu.mp4` dosyasını ve terminal çıktısı için `terminal-ciktisi.png` dosyasını inceleyebilirsiniz.
 
 ## 🚀 Kullanılan Teknolojiler
 * **ROS 2 Jazzy Jalisco:** Güçlü middleware ve donanım soyutlaması. Node'lar arası publish/subscribe mimarisi ile gerçek zamanlı, güvenilir ve eşzamanlı veri iletişimi sağlar.
